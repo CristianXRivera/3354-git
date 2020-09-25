@@ -1,0 +1,6 @@
+(a) There are 5 commits by the original author and 2 by me, a total of 7.
+(b) git.ignore was added on Jan 24, 2017.
+(c) log shows the commit logs while status shows the current working directory status.
+(d) Unstaged files or the files you have edited and created that have not yet been added to a commit, untracked files are files that exist but are not being tracked by git.
+(e) Git checkout lets you see older versions and branches, reset is meant for undoing changes. They both operate with the head but reset also changes the master.
+(f) Git won't let you, outputting an error to stop you.
