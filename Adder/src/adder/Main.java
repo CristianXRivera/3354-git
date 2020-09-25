@@ -6,10 +6,12 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
-            System.err.println("Please provide an integer");
-        }
-    }
+          } catch (ArrayIndexOutOfBoundsException e) {
+	            System.err.println("need Arguments");
+	  } catch(NumberFormatException e) {
+	            System.err.println("need integers or - at beggining");
+	  }
+    
 
     private static int addArguments(String[] args) {
 
@@ -22,5 +24,6 @@ public class Main {
 	return result;
 
 
-    }
+    	}
+   }
 }
