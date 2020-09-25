@@ -7,7 +7,7 @@ public class Main {
             int result = addArguments(args);
             System.out.println(result);
         } catch (Exception e) {
-            System.err.println("Please provide atleast two integers");
+            System.err.println("Please provide an integer");
         }
     }
 
